@@ -1,5 +1,8 @@
 # TradingView Binance Bot Project
 
+## YT source
+https://www.youtube.com/watch?v=XPTb3adEQEE&list=PLvzuUVysUFOvogU79e_wagAwQ_99kTO-F&index=4
+
 ## Langage de programation
 Installer le langage [Python](https://www.python.org/downloads/)
 ## Editeur de texte
@@ -69,4 +72,33 @@ source <virtual-environnement-name>/bin/activate
 Désactiver l’environnement virtuel :
 ``` 
 deactivate
+```
+## Installer les Packages : 
+```
+pip install <some-dependance>
+```
+Lister les dépendances : 
+```
+pip freeze
+```
+Ajouter les dépendances à un fichier “requirement.txt”
+```
+pip freeze > requirement.txt
+```
+Installer les dépendances présentes dans un fichier “requirement.txt” : 
+```
+pip install -r requirement.txt
+```
+
+## Create new flask application 
+
+voir : https://flask.palletsprojects.com/en/stable/
+
+Créer le fichier app.py et lui ajouter une appliation basic. Puis lancer localement l'application
+```
+flask --app app run
+```
+Configurer le mode débug 
+```
+flask --app app run --debug
 ```
